@@ -19,3 +19,5 @@ function allOdd(num) {
 }
 
 console.log(allOdd(num));
+
+// ------------------------------ DONE ------------------------------ \\
