@@ -8,7 +8,7 @@ let arr = [-9, -4, -4, 3, 12, 4, 6];
 let numArr = arr;
 
 
-function orderBreak(arr, index) {
+function orderBreak(arr, index=1) {
   if (!(arr[0] <= arr[1])) {
     return index;
   } 
@@ -20,6 +20,6 @@ function orderBreak(arr, index) {
   }
   else return -1;
 }
-console.log(orderBreak(numArr, 1));
+console.log(orderBreak(numArr));
 
 // ---------------------------- DONE --------------------------- \\
