@@ -3,17 +3,17 @@
 
 let arr = [6, 78, `n`, 0, 1];
 
-function noShift (arr, i=1, output=[]) {
+function noShift(arr, i = 1, output = []) {
 
-if (i < arr.length) {
-  output.push(arr[i]);
-  i++;
-  return noShift(arr, i, output);
+  if (i < arr.length) {
+    output.push(arr[i]);
+    i++;
+    return noShift(arr, i, output);
+  }
+  return output;
+
 }
-return output;
 
-}
-
-console.log(noShift (arr));
+console.log(noShift(arr));
 
 // ------------------------------ DONE ------------------------------ \\
