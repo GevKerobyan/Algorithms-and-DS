@@ -4,8 +4,8 @@
 let numArr = [56, -9, 87, -23, 0, -105, 55, 1];
 let numArrTwo = numArr;
 
-function minPlus(arr, count=Infinity) {
-  
+function minPlus(arr, count = Infinity) {
+
   if (arr[0] >= 0 && arr[0] < count) {
     count = arr[0];
   }
@@ -14,9 +14,12 @@ function minPlus(arr, count=Infinity) {
 
   if(arr.length < 1) {
     return count; 
+
   } else {
-    minPlus(arr, count);
+    return minPlus(arr, count);
   }
 }
 
 console.log(minPlus(numArrTwo));
+
+// ---------------------------- DONE --------------------------- \\
