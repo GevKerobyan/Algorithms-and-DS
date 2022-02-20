@@ -1,8 +1,8 @@
 // 3. Given an array of numbers which is almost sorted in ascending order. Find the index
 // where sorting order is violated.
 
-[2, 12, 15, 48, 64]       - -1
-[-9, -4, -4, 3, 12, 4, 5] -  5
+// [2, 12, 15, 48, 64]       - -1
+// [-9, -4, -4, 3, 12, 4, 5] -  5
 
 let arr = [-9, -4, -4, 3, 12, 4, 6];
 let numArr = arr;
